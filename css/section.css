@@ -1,0 +1,23 @@
+.block > div {
+  margin: 0 auto;
+  width: 1200px;
+  padding: 100px 0 0;
+}
+
+.block .tit {
+  text-align: center;
+}
+
+.block .tit h2 {
+  font-size: 38px;
+  color: #333;
+  line-height: 1;
+  padding: 0 0 28px;
+}
+
+.block .tit p {
+  font-size: 21px;
+  color: #666666;
+  line-height: 1;
+  padding: 0 0 40px;
+}

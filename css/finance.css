@@ -1,0 +1,49 @@
+.service .banner > div {
+  width: 580px;
+  color: #fff;
+}
+
+.service .banner .left {
+  float: left;
+  background: url(../images/0288362001567570900.jpg) no-repeat left top;
+}
+.service .banner .left > div {
+  float: right;
+  background: linear-gradient(to right, #3194d5, #4fb2f6);
+}
+
+.service .banner .right {
+  float: right;
+  background: url(../images/0420193001567571064.jpg) no-repeat left top;
+}
+
+.service .banner .right > div {
+  background: linear-gradient(to right, #334da4, #3c62b3);
+}
+
+.service .banner div div {
+  width: 290px;
+  height: 280px;
+  padding: 37px 0 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.service .banner > div h3 {
+  font-size: 24px;
+  line-height: 31px;
+}
+.service .banner > div p {
+  padding: 12px 0 15px;
+  font-size: 13px;
+  line-height: 24px;
+}
+.service .banner > div a {
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  width: 140px;
+  line-height: 40px;
+  background: #064ca2;
+  border-radius: 7px;
+}
