@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
 
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+
 </head>
 <body>
     <a href="#content" class="skip">본문바로가기</a>
@@ -82,11 +87,61 @@
                 </div>
             </div>
 
+    <div class="btm">     
+        <article class="event">
+            <h3>이벤트</h3>
+            <img src="../images/0287376001568681470.jpg"/>
+            <a href="" class="btn_more">자세히보기</a>
+        </article>
+        <article class="recom">
+            <h3>시니어 추천 금융상품</h3>
+            <div class="swiper-container slide2">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                      <div class="card_info">
+                       <div class="card">
+                        <img src="../images/0471292001571188443.png" alt="" />
+                        <div>
+                            <button><span class="xi-heart"></span>관심주기</button>
+                            <button><span class="xi-pen-o"></span>신청하기</button>
+                        </div>
+                        </div>
+                        <div class="info">
+                            <h4>우리국민연금증카드</h4>
+                            <p>국민연금수급자임을 증명하는 신분증 기능에 버스요금 매월 5천원 지원과 차별화</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="swiper-slide">Slide 2</div>
+                </div>
+                <div class="control">
+                <button class="prev"><span class="xi-long-arrow-left"></span></button>
+                <button class="next"><span class="xi-long-arrow-right"></span></button>
+            </div>
+              </div>
+            <a href="" class="btn_more">자세히보기</a>
+        </article>
+    </div>   
+
+
         </div>
+
 
     </section>
 
 
-
+    <script type="module">
+        import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js';
+      
+        const swiper2 = new Swiper('.slide2', {
+         slidesPerView: 1,
+         loop: true,
+         navigation: {
+            nextEl: '.slide2 .next',
+            prevEl: '.slide2 .prev',
+        }
+     });
+      </script>
+      
 </body>
 </html>

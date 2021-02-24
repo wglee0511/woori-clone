@@ -1,0 +1,29 @@
+{
+  "name": "woori-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.1",
+    "@babel/node": "^7.13.0",
+    "@babel/preset-env": "^7.13.5",
+    "swiper": "^6.4.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node bin/runner"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wglee0511/woori-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wglee0511/woori-clone/issues"
+  },
+  "homepage": "https://github.com/wglee0511/woori-clone#readme",
+  "type": "module"
+}
