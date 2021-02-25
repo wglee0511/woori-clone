@@ -74,12 +74,13 @@
   position: relative;
   font-size: 0;
 }
-.service .card_info .card div {
+.btn_func {
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
   background: rgba(255, 255, 255, 0.8);
+  font-size: 0;
 }
 .service .card_info .card div:before {
   content: "";
@@ -90,7 +91,7 @@
   background: #bfc0c2;
 }
 
-.service .card_info .card button {
+.btn_func button {
   width: 50%;
   height: 45px;
   background: none;
